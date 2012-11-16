@@ -1,7 +1,7 @@
-Stringify::Deep
+Data::Pensieve
 ====================
 
-Stringifies elements in data structures for easy serialization
+Simple tool for interacting with revisioned data
 
 INSTALLATION
 
@@ -16,8 +16,15 @@ DEPENDENCIES
 
 This module requires these other modules and libraries:
 
-    Data::Structure::Util
-    Scalar::Util
+    Carp>
+    DateTime
+    DateTime::Format::MySQL
+    DBIx::Class
+    List::Util
+    List::MoreUtils
+    Moose
+    Storable
+    Text::Diff
 
 COPYRIGHT AND LICENSE
 
