@@ -1,5 +1,8 @@
 Revision history for Perl extension Data::Pensieve
 
+0.02  Thu Nov 15 2012
+    - because I'm an idiot and messed up the META.yml
+
 0.01  Thu Nov 15 2012
     - original version
 

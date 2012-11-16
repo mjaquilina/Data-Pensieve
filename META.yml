@@ -1,7 +1,7 @@
 --- #YAML:1.0
-name:               Stringify-Deep
+name:               Data-Pensieve
 version:            0.02
-abstract:           Stringifies elements in data structures for easy serialization
+abstract:           Simple tool for interacting with revisioned data
 author:
     - Michael Aquilina <aquilina@cpan.org>
 license:            unknown
@@ -11,8 +11,14 @@ configure_requires:
 build_requires:
     ExtUtils::MakeMaker:  0
 requires:
-    Data::Structure::Util: 0
-    Scalar::Util:          0
+    Carp:                    0
+    DateTime:                0
+    DateTime::Format::MySQL: 0
+    List::Util:              0
+    List::MoreUtils:         0
+    Storable:                0
+    Text::Diff:              0
+    Moose:                   0
 no_index:
     directory:
         - t
