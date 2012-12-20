@@ -9,6 +9,7 @@ WriteMakefile(
         Carp                      => 0,
         DateTime                  => 0,
         'DateTime::Format::MySQL' => 0,
+        DBI                       => 0,
         'List::Util'              => 0,
         'List::MoreUtils'         => 0,
         'Storable'                => 0,

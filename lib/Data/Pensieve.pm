@@ -14,7 +14,7 @@ use Moose;
 
 use Data::Pensieve::Revision;
 
-our $VERSION = 0.02;
+our $VERSION = 0.03;
 
 has 'revision_rs'      => ( is => 'rw' );
 has 'revision_data_rs' => ( is => 'rw' );

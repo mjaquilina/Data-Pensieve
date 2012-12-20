@@ -19,6 +19,7 @@ This module requires these other modules and libraries:
     Carp>
     DateTime
     DateTime::Format::MySQL
+    DBI
     DBIx::Class
     List::Util
     List::MoreUtils
